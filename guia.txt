@@ -1,0 +1,24 @@
+inciar el proyecto de node.js
+
+npm init -y
+
+instalacion de react y reactDOM
+
+npm install  --save react react-reactDOM
+
+instalacion de dabel
+
+npm install --save-dev @babel/core @babel/preset-env @babel/preset-react babel-loader --save -dev
+
+instalacion de webpack
+
+npm install webpack webpack-cli html-webpack-plugin html-loader --save-dev
+
+
+solucion de error
+
+npm cache clean --force
+
+par la instalacion de  webpack server 
+
+npm install webpack-dev-server --save-dev
