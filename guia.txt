@@ -22,3 +22,10 @@ npm cache clean --force
 par la instalacion de  webpack server 
 
 npm install webpack-dev-server --save-dev
+
+para la intalacion de sass
+npm install --save-dev mini-css-extract-plugin css-loader node-sass sass-loader --save-dev
+
+para la instalacion de eslint
+
+npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y --save-dev
