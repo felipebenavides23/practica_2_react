@@ -1,10 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Helloworld from './components/HelloWorld'
-import Prueba from './components/HelloWorld'
+import App from './containers/App';
+import Header from './components/Header'
 ReactDOM.render(
-<Helloworld/>,document.getElementById('app')
-
-
+<App />,document.getElementById('app')
 );
 
