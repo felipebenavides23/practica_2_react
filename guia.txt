@@ -33,3 +33,45 @@ npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint
 para descargar el render de imagenes 
 
 npm install file-loader --save-dev
+
+
+para  instalacion de json server
+
+forma 1:
+ npm install json-server -g
+forma 2:
+sudo npm install json-server -g
+
+instalacion de propTypes
+
+npm install prop-types
+
+llamado de una API
+
+//   forma 2 de hacer un llamada de api en react con async/await
+//   const [videos , setVideos] = useState([])
+//   useEffect(() => {
+//       const fetchVideos = async () => {
+//         try {
+//           const response = await fetch("http:localhost:3000/initialState");
+//           const data = await response.json();
+//           return setVideos(data);
+//         } catch {
+//           console.log(error);
+//         }
+//       };
+//       fetchVideos();
+//     }, []);
+
+//     console.log(videos)
+
+
+  const[video , setVideo] = useState([])
+
+    useEffect(()=>{
+        fetch('http://localhost:3000/initialState')
+        .then(response => response.json)
+        .then(data => setVideo(data))
+    },[]);
+
+    console.log(video)
