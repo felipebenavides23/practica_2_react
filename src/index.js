@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import App from './containers/App';
 
 ReactDOM.render(
-<App />,document.getElementById('app')
+  // eslint-disable-next-line react/jsx-filename-extension
+  <App />, document.getElementById('app'),
 );
-

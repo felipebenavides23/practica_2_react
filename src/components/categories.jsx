@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
-
-const Categorie =({children ,title}) =>(
-<div className='categories'>
-<h3 className="categories__title">{title}</h3>
+const Categorie = ({ children, title }) => (
+  <div className="categories">
+    <h3 className="categories__title">{title}</h3>
     {children}
+  </div>
+);
 
-</div>
-)
-
-export default Categorie
+export default Categorie;

@@ -30,6 +30,10 @@ para la instalacion de eslint
 
 npm install eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y --save-dev
 
+para iniciar eslint 
+
+npx eslint --init
+
 para descargar el render de imagenes 
 
 npm install file-loader --save-dev

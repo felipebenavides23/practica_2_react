@@ -1,16 +1,15 @@
-import {useState,useEffect} from 'react'
-
+import { useState, useEffect } from 'react';
 
 const useinitialState = (API) => {
-    const[video , setVideo] = useState({mylist:[],trends:[],originals:[]})
+  const [video, setVideo] = useState({ mylist: [], trends: [], originals: [] });
 
-    useEffect(()=>{
-        fetch(API)
-        .then(response => response.json())
-        .then(data => setVideo(data))
-    },[]);
+  useEffect(() => {
+    fetch(API)
+      .then((response) => response.json())
+      .then((data) => setVideo(data));
+  }, []);
 
-    return( video);
-}
+  return (video);
+};
 
-export default useinitialState ;
+export default useinitialState;
